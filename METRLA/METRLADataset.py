@@ -124,5 +124,5 @@ class METRLADataset(object):
         dataset = StaticGraphTemporalSignal(self.edge_index, self.edge_weight, self.features, self.targets)
         return dataset
 
-check = METRLADataset(root_dir='../data')
+
 
